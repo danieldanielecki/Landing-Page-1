@@ -1,0 +1,317 @@
+/* Google Fonts. */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300,300italic|Roboto:100,100italic);
+body {
+  background: #fff;
+  color: #444;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  height: 100%;
+  line-height: 1.6em;
+  width: 100%;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  line-height: 1.2em;
+  margin: 0 0 20px;
+}
+
+p {
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+a {
+  color: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Navbar. */
+.navbar-brand {
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.navbar.navbar-custom {
+  margin: 0 auto;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+/* Miscellaneous. */
+.divider-short {
+  background: #aaa;
+  display: block;
+  height: 1px;
+  margin: 40px auto;
+  width: 100px;
+}
+
+.dividersolid {
+  border-top: 1px solid #ccc;
+  margin: 25px 0px;
+}
+
+/* General sections. */
+.home-section {
+  background-color: #fff;
+  display: block;
+  padding: 70px 0 70px;
+  position: relative;
+  z-index: 120;
+}
+.home-section .heading {
+  margin-bottom: 40px;
+}
+
+/* Intro. */
+.intro {
+  position: relative;
+  width: 100%;
+}
+.intro .buttons {
+  margin: 80px 0 0;
+}
+.intro .buttons a .btn {
+  margin: 10px;
+  padding: 5px 20px;
+}
+.intro .buttons a small {
+  font-weight: 100;
+  text-transform: none;
+}
+
+.intro-content {
+  padding: 50px 0;
+}
+.intro-content .slogan h2 {
+  margin-bottom: 30px;
+}
+.intro-content h2 {
+  margin-bottom: 10px;
+}
+
+/* Callaction. */
+#callaction {
+  border: 1px solid  #fafafa;
+  border-bottom: 2px solid  #f2f2f2;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.cta-text {
+  margin-top: 10px;
+  text-align: left;
+}
+.cta-text h3 {
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  float: right;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+/* Buttons. */
+.btn-skin {
+  background-color: #39ddc2;
+  border-color: #39ddc2;
+  color: #fff;
+}
+.btn-skin:hover {
+  -webkit-transition: background 0.7s ease-in-out;
+  -o-transition: background 0.7s ease-in-out;
+  transition: background 0.7s ease-in-out;
+}
+.btn-skin:hover, .btn-skin:focus, .btn-skin:active, .btn-skin.active {
+  color: #fff;
+}
+
+.btn-lg {
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 1.5em;
+  margin: 5px;
+  padding: 10px 36px;
+}
+
+.circled {
+  background: #39ddc2;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-align: center;
+  width: 1.6em;
+}
+
+.bg-skin {
+  background: #39ddc2;
+}
+
+/* Features. */
+.features {
+  margin-bottom: 40px;
+}
+.features i {
+  margin: 0px 20px 0 0;
+}
+.features h5 {
+  line-height: 1em;
+  padding-top: 10px;
+  vertical-align: middle;
+}
+
+/* Footer. */
+footer .sub-footer p {
+  font-size: 12px;
+}
+
+sub-footer {
+  border-top: 1px solid  #fafafa;
+  padding: 50px 0 20px;
+}
+
+/* Elements. */
+.btn {
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  outline: none;
+  position: relative;
+  text-decoration: none;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+}
+
+.btn-skin:hover, .btn-skin:focus, .btn-skin:active, .btn-skin .active {
+  background-color: #159981;
+  border-color: #159981;
+  color: #fff;
+}
+
+/* Media queries. */
+@media (min-width: 768px) and (max-width: 979px) {
+  .img-responsive {
+    display: block;
+    height: 70%;
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .buttons {
+    display: block;
+    margin: 20px auto 0;
+    text-align: center;
+  }
+
+  .intro-content .slogan {
+    margin-top: 30px;
+  }
+
+  .cta-text {
+    float: none;
+    text-align: center;
+  }
+  .cta-text p {
+    text-align: center;
+  }
+
+  .cta-btn {
+    float: none;
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .img-responsive {
+    display: block;
+    height: 50%;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .buttons {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .divider-short {
+    margin: 30px auto;
+  }
+
+  .cta-text {
+    float: none;
+    text-align: center;
+  }
+  .cta-text p {
+    text-align: center;
+  }
+
+  .cta-btn {
+    float: none;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  p {
+    text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .img-responsive {
+    display: none;
+  }
+}
